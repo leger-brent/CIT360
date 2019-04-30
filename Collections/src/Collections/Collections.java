@@ -11,6 +11,8 @@ public class Collections {
         //Create the ArrayList
         ArrayList<String> characterNames = new ArrayList<String>();
 
+        //Test Commit and push
+
         //Add characters to the ArrayList
         characterNames.add("Vahn");
         characterNames.add("Noa");
