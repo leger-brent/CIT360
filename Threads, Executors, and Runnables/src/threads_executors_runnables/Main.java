@@ -40,7 +40,7 @@ public class Main {
         fighting.add(Noa);
         fighting.add(Gala);
 
-        spawn(monsterFighting, 10);
+        spawn(monsterFighting, 5);
 
         while (monsterFighting.size() > 0) {
             int hIndex = index(fighting.size());
