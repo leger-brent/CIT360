@@ -18,10 +18,8 @@ public class APC {
 
         while (choice != 1 && choice != 2) {
             choice = parseInt(in.nextLine());
-            if (choice == 3) {
-                System.exit(0);
-            }
         }
+
         System.out.println("How much?");
         howMuch = in.nextInt();
         balance = player.getBalance();
