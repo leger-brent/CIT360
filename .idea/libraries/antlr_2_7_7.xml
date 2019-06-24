@@ -22,6 +22,8 @@
       <root url="jar://C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.16.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/qcJSON-master/src" />
+    </SOURCES>
   </library>
 </component>
