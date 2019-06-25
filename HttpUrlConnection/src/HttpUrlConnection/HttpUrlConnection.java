@@ -14,9 +14,9 @@ public class HttpUrlConnection {
 
         try {
             URL url = new URL("https://en.wikipedia.org/wiki/Legend_of_Legaia");
-            URLConnection urlcon = url.openConnection();
+            URLConnection urlconn = url.openConnection();
             BufferedReader in = new BufferedReader(new InputStreamReader(
-                    urlcon.getInputStream()));
+                    urlconn.getInputStream()));
             String inputLine;
             while ((inputLine = in.readLine()) != null)
                 System.out.println(inputLine);
